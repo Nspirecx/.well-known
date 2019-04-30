@@ -1,0 +1,42 @@
+<head>
+<link rel='stylesheet' href='https://phyllocrania.github.io/css/style.css' crossorigin='anonymous'>
+<title>HANGMAN Game</title>
+</head>
+
+<center>
+<h1>HANGMAN</h1>
+<img src = 'Hangman.jpg'title = 'Hangman'>
+</center>
+
+<script>
+ var words = ['javascript','style','animals','calculator'];
+ var word = words[math.floor(math.random()*words.length);
+ //answer array setup                 
+ var answer = [];
+ for (var i = 0; i < word; i++;) {
+  answer[i] = '_';
+ }
+  
+ var rl = words.length;
+ //the game loop
+ while (rl > 0 {
+        // show the player their proggress
+        alert(answer.join(""));
+ 
+ //get a guess from the player
+ var guess = prompt('Guess a letter, or click Cancel to stop playing');
+ if (guess === null) {
+  break;
+ }else if (guess.length !== 1) {
+  alert('please enter a 1 letter answer')
+ }else {
+  //update the game state with the guess
+  for (var j = 0; j < word.length; j++;) {
+   if word[j] === guess) {
+    answer[j] = guess;
+    rl--;
+   }
+  }
+ }
+  
+</script>
