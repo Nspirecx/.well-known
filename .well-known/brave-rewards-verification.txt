@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: nspirecx.github.io
+Token: 6fdde87617eed9a95312032b8b7d2cf37457018058c0207ae4e3c5829be283eb
